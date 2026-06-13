@@ -21,3 +21,10 @@ Functional simulation of async FIFO using Gray-coded pointers and 2-stage synchr
 - **Verification**: Functional simulation only
 
 ## File Structure
+asynchronous-fifo/
+├── README.md
+├── async_fifo.v
+├── tb_async_fifo.v
+└── waveforms/
+    ├── fifo_dual_clock_cdc.png
+    └── fifo_flags_full_empty.png
